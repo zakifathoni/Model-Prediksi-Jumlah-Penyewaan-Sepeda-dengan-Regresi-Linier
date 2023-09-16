@@ -1,23 +1,15 @@
-# Analisis Model Prediksi Penyewaan Jumlah Sepeda Harian dengan Regresi Linier
+# 🚲 Prediksi Jumlah Penyewaan Sepeda dengan Regresi Linier 📈
 
-## Deskripsi
+Selamat datang di repositori ini! Di sini, Anda akan menemukan sebuah notebook Jupyter yang memandu Anda melalui proses pembuatan model regresi linier untuk memprediksi jumlah penyewaan sepeda harian. 
 
-Repository ini berisi repository yang membahas tentang model prediksi penyewaan sepeda harian dengan menggunakan regresi linier. repository ini membahas teknik machine learning supervised dan bagaimana proses pelatihan model dapat membantu memprediksi label pada himpunan data yang belum diketahui. Selain itu, repository ini juga membahas faktor-faktor yang perlu dipertimbangkan dalam memilih model regresi linier untuk memprediksi penyewaan sepeda harian.
+## 📊 Dataset
 
-## Analisis
+Data yang digunakan dalam proyek ini berasal dari [Bike Sharing Dataset], yang berisi data tentang jumlah penyewaan sepeda per jam dan per hari di Washington D.C. pada tahun 2011 dan 2012. Dataset ini juga mencakup variabel-variabel lain seperti cuaca, suhu, kelembaban, dan hari libur.
 
-Repository ini memberikan penjelasan tentang teknik machine learning supervised dan bagaimana ia berbeda dengan teknik machine learning unsupervised. Teknik supervised melibatkan pelatihan model untuk beroperasi pada sekumpulan data dan memprediksi label menggunakan himpunan data yang mencakup beberapa nilai label yang sudah diketahui. Proses pelatihan menyelaraskan fitur dengan label yang diketahui untuk menentukan fungsi umum yang dapat diterapkan pada data baru yang labelnya tidak diketahui dan memprediksinya.
+## 🎯 Tujuan
 
-Dalam repository ini, algoritma linear regression digunakan sebagai titik awal umum untuk regresi. Algoritma ini bekerja dengan mencoba menemukan hubungan linier antara nilai X dan label y. Model yang dihasilkan adalah fungsi yang secara konseptual mendefinisikan garis di mana setiap kombinasi nilai X dan y mungkin berpotongan.
+Tujuan dari proyek ini adalah untuk mengeksplorasi data, melakukan analisis statistik, dan membuat model regresi linier yang dapat memprediksi jumlah penyewaan sepeda harian berdasarkan variabel-variabel yang tersedia.
 
-Repository ini juga membahas faktor-faktor penting dalam memilih model regresi linier, seperti ketergantungan variabel, kecocokan model, dan pengujian model. Ketergantungan variabel mengacu pada hubungan antara variabel independen dan dependen. Keberhasilan model regresi linier tergantung pada seberapa baik variabel independen dapat menjelaskan variasi dalam variabel dependen. 
+## 🛠️ Langkah-langkah
 
-Selain itu, repository ini juga membahas tentang pengujian model untuk memastikan bahwa model yang dipilih adalah yang terbaik untuk data yang diberikan. Pengujian model melibatkan penggunaan metrik evaluasi seperti R-squared, MeanAbsolute Error (MAE), dan Root Mean Squared Error (RMSE) untuk mengevaluasi kinerja model. Metrik evaluasi ini membantu dalam membandingkan model yang berbeda dan memilih model yang paling cocok untuk data yang diberikan.
-
-Dalam repository ini, Scikit-Learn digunakan sebagai library machine learning untuk melatih model regresi linier. Algoritma pelatihan dienkapsulasi dalam estimator, dan dalam hal ini digunakan estimator LinearRegression untuk melatih model regresi linier.
-
-## Kesimpulan
-
-repository ini memberikan penjelasan tentang teknik machine learning supervised dan bagaimana ia dapat digunakan untuk memprediksi label pada himpunan data yang belum diketahui. Selain itu, repository ini juga membahas faktor-faktor penting dalam memilih model regresi linier dan pengujian model untuk memastikan bahwa model yang dipilih adalah yang terbaik untuk data yang diberikan.
-
-Dalam implementasinya, Scikit-Learn digunakan sebagai library machine learning untuk melatih model regresi linier. Dengan menggunakan teknik-teknik ini, kita dapat membuat prediksi penyewaan sepeda harian dengan akurasi yang lebih tinggi dan mengoptimalkan bisnis penyewaan sepeda harian.
+Notebook ini juga menjelaskan langkah-langkah dan konsep-konsep yang digunakan dalam proses pembuatan model, seperti pemilihan fitur, pemisahan data latih dan uji, pengukuran kesalahan, dan evaluasi model.
